@@ -23,6 +23,7 @@ Then follow the **[SETUP.md](SETUP.md)** guide to configure your IDE and start b
 
 ## Documentation
 
+- **[QUICKSTART.md](QUICKSTART.md)** - 30-second quick reference guide
 - **[SETUP.md](SETUP.md)** - Complete setup guide for IntelliJ IDEA Ultimate
 
 ## Contributing
