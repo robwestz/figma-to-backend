@@ -33,10 +33,6 @@ pip-delete-this-directory.txt
 *.egg-info/
 *.egg
 
-# Build artifacts (Node.js & Python)
-dist/
-build/
-
 # Testing
 .coverage
 htmlcov/
@@ -64,7 +60,9 @@ logs/
 .env.local
 .env.*.local
 
-# Build artifacts
+# Build artifacts (Node.js, Python, Java)
+dist/
+build/
 *.class
 *.jar
 *.war

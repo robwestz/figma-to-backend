@@ -185,8 +185,7 @@ pylint src/
 
 ### Format Code
 
-- **Reformat code:** **Ctrl + Alt + L** (Windows/Linux) or **Cmd + Option + L** (Mac)
-- **Optimize imports:** **Ctrl + Alt + O** (Windows/Linux) or **Cmd + Option + O** (Mac)
+Use the keyboard shortcuts in the table below to format your code.
 
 ## Useful Keyboard Shortcuts
 
@@ -201,6 +200,8 @@ pylint src/
 | Refactor this | **Ctrl + Alt + Shift + T** | **Ctrl + T** |
 | Go to definition | **Ctrl + B** | **Cmd + B** |
 | Show usages | **Ctrl + Alt + F7** | **Cmd + Option + F7** |
+| Reformat code | **Ctrl + Alt + L** | **Cmd + Option + L** |
+| Optimize imports | **Ctrl + Alt + O** | **Cmd + Option + O** |
 
 ## Troubleshooting
 
