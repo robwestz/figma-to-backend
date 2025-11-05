@@ -43,9 +43,9 @@
         <applicationService serviceImplementation="com.robwestz.figmatobackend.services.FigmaApiService"/>
         <applicationService serviceImplementation="com.robwestz.figmatobackend.services.CodeGeneratorService"/>
         
-        <!-- Phase 3 Services (Architecture Defined - Implementation Pending) -->
-        <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.binding.FigmaAnnotationParser"
-                            serviceImplementation="com.robwestz.figmatobackend.binding.FigmaAnnotationParserImpl"/> -->
+        <!-- Phase 3 Services -->
+        <applicationService serviceInterface="com.robwestz.figmatobackend.binding.FigmaAnnotationParser"
+                            serviceImplementation="com.robwestz.figmatobackend.binding.FigmaAnnotationParserImpl"/>
         <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.introspection.BackendIntrospectionService"
                             serviceImplementation="com.robwestz.figmatobackend.introspection.BackendIntrospectionServiceImpl"/> -->
         <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.binding.DataBindingManager"
