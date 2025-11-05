@@ -7,12 +7,20 @@
     A PyCharm plugin that bridges the gap between Figma frontend designs and backend development.
     <br/>
     <br/>
-    <b>Features:</b>
+    <b>Phase 2 - Code Generation:</b>
     <ul>
         <li>Direct Figma integration within PyCharm through a dedicated tool window</li>
         <li>Design-to-code generation from Figma designs</li>
         <li>Intelligent code placement in your project structure</li>
         <li>Production-ready frontend code generation (HTML, CSS, JavaScript/TypeScript)</li>
+    </ul>
+    <br/>
+    <b>Phase 3 - Intelligent Sync (Architecture Defined):</b>
+    <ul>
+        <li>Non-destructive synchronization preserving manual code changes</li>
+        <li>Data binding between Figma designs and backend data (Django/Flask/FastAPI)</li>
+        <li>Backend introspection using PyCharm PSI</li>
+        <li>Smart merge algorithm with code markers</li>
     </ul>
     <br/>
     <b>Usage:</b>
@@ -30,8 +38,22 @@
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Figma" secondary="true" icon="AllIcons.Actions.PreviewDetails" anchor="right"
                     factoryClass="com.robwestz.figmatobackend.ui.FigmaToolWindowFactory"/>
+        
+        <!-- Phase 2 Services -->
         <applicationService serviceImplementation="com.robwestz.figmatobackend.services.FigmaApiService"/>
         <applicationService serviceImplementation="com.robwestz.figmatobackend.services.CodeGeneratorService"/>
+        
+        <!-- Phase 3 Services (Architecture Defined - Implementation Pending) -->
+        <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.binding.FigmaAnnotationParser"
+                            serviceImplementation="com.robwestz.figmatobackend.binding.FigmaAnnotationParserImpl"/> -->
+        <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.introspection.BackendIntrospectionService"
+                            serviceImplementation="com.robwestz.figmatobackend.introspection.BackendIntrospectionServiceImpl"/> -->
+        <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.binding.DataBindingManager"
+                            serviceImplementation="com.robwestz.figmatobackend.binding.DataBindingManagerImpl"/> -->
+        <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.sync.NonDestructiveSyncService"
+                            serviceImplementation="com.robwestz.figmatobackend.sync.NonDestructiveSyncServiceImpl"/> -->
+        <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.sync.Phase3SyncCoordinator"
+                            serviceImplementation="com.robwestz.figmatobackend.sync.Phase3SyncCoordinatorImpl"/> -->
     </extensions>
 
     <actions>

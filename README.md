@@ -6,14 +6,23 @@
 
 A PyCharm plugin that bridges the gap between Figma frontend designs and backend development. This plugin enables developers to seamlessly integrate Figma designs into their PyCharm workflow and generate production-ready frontend code.
 
-**🚀 [Quick Start Guide](QUICKSTART.md)** | **📖 [Examples](EXAMPLES.md)** | **🔧 [Development](DEVELOPMENT.md)**
+**🚀 [Quick Start Guide](QUICKSTART.md)** | **📖 [Examples](EXAMPLES.md)** | **🔧 [Development](DEVELOPMENT.md)** | **🏗️ [Phase 3 Architecture](PHASE3_README.md)**
 
 ## Features
 
+### Phase 2: Code Generation (✅ Complete)
 - **Direct Figma Integration**: Access Figma designs directly from PyCharm through a dedicated tool window
 - **Design-to-Code Generation**: Automatically convert Figma designs into HTML, CSS, and JavaScript code
 - **Intelligent File Placement**: The plugin intelligently places generated code in appropriate project directories
 - **Production-Ready Code**: Generates clean, well-structured frontend code ready for production use
+
+### Phase 3: Intelligent Sync (🏗️ Architecture Defined)
+- **Non-Destructive Synchronization**: Update designs without losing manual code changes
+- **Data Binding**: Connect Figma elements to Django/Flask/FastAPI backend data
+- **Backend Introspection**: Automatically discover available data in your backend code
+- **Smart Merging**: Preserve manual modifications while syncing design updates
+
+**📘 [Learn about Phase 3](PHASE3_README.md)** - See the architecture and roadmap
 
 ## Installation
 
