@@ -35,6 +35,7 @@ cd figma-to-backend
 ```bash
 idea /path/to/figma-to-backend
 ```
+*Note: The `idea` command requires the IntelliJ IDEA command-line launcher. To enable it: **Tools → Create Command-line Launcher** in IntelliJ IDEA.*
 
 ### 3. Initial Project Setup
 
@@ -190,7 +191,7 @@ pylint src/
 | Action | Windows/Linux | Mac |
 |--------|---------------|-----|
 | Search everywhere | **Double Shift** | **Double Shift** |
-| Find file | **Ctrl + Shift + N** | **Cmd + Shift + O** |
+| Find file | **Ctrl + Shift + N** | **Cmd + Shift + N** |
 | Find class | **Ctrl + N** | **Cmd + O** |
 | Find action | **Ctrl + Shift + A** | **Cmd + Shift + A** |
 | Run | **Shift + F10** | **Ctrl + R** |

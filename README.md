@@ -14,7 +14,7 @@ git clone https://github.com/robwestz/figma-to-backend.git
 cd figma-to-backend
 
 # Open in IntelliJ IDEA Ultimate
-idea .
+idea .  # Requires IntelliJ command-line launcher
 
 # Or open manually: File → Open → Select figma-to-backend directory
 ```

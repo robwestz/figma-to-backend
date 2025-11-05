@@ -46,7 +46,7 @@ npm run build      # or: python setup.py build
 | What | Shortcut (Win/Linux) | Shortcut (Mac) |
 |------|---------------------|----------------|
 | Search everywhere | `Shift Shift` | `Shift Shift` |
-| Find file | `Ctrl+Shift+N` | `Cmd+Shift+O` |
+| Find file | `Ctrl+Shift+N` | `Cmd+Shift+N` |
 | Run | `Shift+F10` | `Ctrl+R` |
 | Debug | `Shift+F9` | `Ctrl+D` |
 | Go to definition | `Ctrl+B` | `Cmd+B` |
