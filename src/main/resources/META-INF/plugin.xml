@@ -48,8 +48,8 @@
                             serviceImplementation="com.robwestz.figmatobackend.binding.FigmaAnnotationParserImpl"/>
         <applicationService serviceInterface="com.robwestz.figmatobackend.introspection.BackendIntrospectionService"
                             serviceImplementation="com.robwestz.figmatobackend.introspection.BackendIntrospectionServiceImpl"/>
-        <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.binding.DataBindingManager"
-                            serviceImplementation="com.robwestz.figmatobackend.binding.DataBindingManagerImpl"/> -->
+        <applicationService serviceInterface="com.robwestz.figmatobackend.binding.DataBindingManager"
+                            serviceImplementation="com.robwestz.figmatobackend.binding.DataBindingManagerImpl"/>
         <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.sync.NonDestructiveSyncService"
                             serviceImplementation="com.robwestz.figmatobackend.sync.NonDestructiveSyncServiceImpl"/> -->
         <!-- <applicationService serviceInterface="com.robwestz.figmatobackend.sync.Phase3SyncCoordinator"
