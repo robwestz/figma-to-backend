@@ -1,6 +1,12 @@
 # Figma to Backend - PyCharm Plugin
 
+[![Build](https://github.com/robwestz/figma-to-backend/workflows/Build%20Plugin/badge.svg)](https://github.com/robwestz/figma-to-backend/actions)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/robwestz/figma-to-backend/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+
 A PyCharm plugin that bridges the gap between Figma frontend designs and backend development. This plugin enables developers to seamlessly integrate Figma designs into their PyCharm workflow and generate production-ready frontend code.
+
+**🚀 [Quick Start Guide](QUICKSTART.md)** | **📖 [Examples](EXAMPLES.md)** | **🔧 [Development](DEVELOPMENT.md)**
 
 ## Features
 
@@ -162,7 +168,16 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is open source. Please check the LICENSE file for more details.
 
+## Additional Resources
+
+- **[Quick Start Guide](QUICKSTART.md)** - Get up and running in 5 minutes
+- **[Usage Examples](EXAMPLES.md)** - Practical examples and integration patterns
+- **[Development Guide](DEVELOPMENT.md)** - Architecture and developer documentation
+- **[Contributing](CONTRIBUTING.md)** - How to contribute to the project
+
 ## Support
 
 For issues, questions, or contributions, please visit:
-https://github.com/robwestz/figma-to-backend/issues
+- **Issues**: https://github.com/robwestz/figma-to-backend/issues
+- **Discussions**: https://github.com/robwestz/figma-to-backend/discussions
+- **Email**: support@robwestz.com
