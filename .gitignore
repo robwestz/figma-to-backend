@@ -16,8 +16,6 @@ yarn-debug.log*
 yarn-error.log*
 package-lock.json
 yarn.lock
-dist/
-build/
 .npm
 
 # Python
@@ -33,9 +31,11 @@ ENV/
 pip-log.txt
 pip-delete-this-directory.txt
 *.egg-info/
+*.egg
+
+# Build artifacts (Node.js & Python)
 dist/
 build/
-*.egg
 
 # Testing
 .coverage

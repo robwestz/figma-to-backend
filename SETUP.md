@@ -33,7 +33,9 @@ cd figma-to-backend
 
 **Option B: From Command Line**
 ```bash
-idea /path/to/figma-to-backend
+# Navigate to the project directory and open it
+cd figma-to-backend
+idea .
 ```
 *Note: The `idea` command requires the IntelliJ IDEA command-line launcher. To enable it: **Tools → Create Command-line Launcher** in IntelliJ IDEA.*
 
