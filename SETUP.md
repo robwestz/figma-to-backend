@@ -193,7 +193,7 @@ Use the keyboard shortcuts in the table below to format your code.
 |--------|---------------|-----|
 | Search everywhere | **Double Shift** | **Double Shift** |
 | Find file | **Ctrl + Shift + N** | **Cmd + Shift + N** |
-| Find class | **Ctrl + N** | **Cmd + O** |
+| Find class | **Ctrl + N** | **Cmd + N** |
 | Find action | **Ctrl + Shift + A** | **Cmd + Shift + A** |
 | Run | **Shift + F10** | **Ctrl + R** |
 | Debug | **Shift + F9** | **Ctrl + D** |

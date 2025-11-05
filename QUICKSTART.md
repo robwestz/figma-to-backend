@@ -52,7 +52,7 @@ npm run build      # or: python setup.py build
 | Go to definition | `Ctrl+B` | `Cmd+B` |
 | Rename | `Shift+F6` | `Shift+F6` |
 | Format code | `Ctrl+Alt+L` | `Cmd+Opt+L` |
-| Find usages | `Alt+F7` | `Opt+F7` |
+| Find usages | `Ctrl+Alt+F7` | `Cmd+Opt+F7` |
 | Terminal | `Alt+F12` | `Opt+F12` |
 | Commit | `Ctrl+K` | `Cmd+K` |
 
