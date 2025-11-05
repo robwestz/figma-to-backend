@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>com.minorg.figmabridge</id>
+    <name>Figma to PyCharm Bridge</name>
+    <vendor email="support@minorg.com" url="https://www.minorg.com">MinOrg</vendor>
+
+    <description><![CDATA[
+    Integrerar Figma-designer direkt i PyCharm. Genererar frontend-kod (HTML/CSS/React)
+    från Figma och hjälper till att ansluta den till din Django/Flask-backend.
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.python</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow
+                id="Figma Bridge"
+                anchor="right"
+                icon="/META-INF/pluginIcon.svg" 
+                factoryClass="com.minorg.figmabridge.toolwindow.FigmaToolWindowFactory"/>
+    </extensions>
+
+    </idea-plugin>
